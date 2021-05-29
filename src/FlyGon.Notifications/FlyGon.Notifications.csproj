@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>FlyGon.Notifications</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>João Greco</Authors>
+    <Company>grecojoao</Company>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <RepositoryUrl>https://github.com/grecojoao/FlyGon.Notifications</RepositoryUrl>
+    <Description>Easily use the Domain Notification design pattern.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <NeutralLanguage></NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/grecojoao/FlyGon.Notifications</PackageProjectUrl>
+    <PackageTags>Domain;DDD;Notification;Validation;FlyGon;FlyGon.Notifications</PackageTags>
+  </PropertyGroup>
+
+</Project>
