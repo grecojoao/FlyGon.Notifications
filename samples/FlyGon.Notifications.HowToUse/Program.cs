@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FlyGon.Notifications.Validations;
+using System;
 
 namespace FlyGon.Notifications.HowToUse
 {
@@ -17,6 +18,13 @@ namespace FlyGon.Notifications.HowToUse
 
         public void Validate()
         {
+            // Use the Validation Contract pattern
+            AddNotifications(
+                new ValidationContract()
+                .HasMinLen(Name, 5, "Name", "Name must be at least 5 characters long")
+                .IsNotNullOrEmpty(Surname, "Surname", "Must have a surname"));
+
+            // Or use as you prefer, for example:
             if (string.IsNullOrEmpty(Name))
                 AddNotification(new Notification("Name", "Invalid name"));
             if (string.IsNullOrEmpty(Surname))

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyGon.Notifications.HowToUse", "samples\FlyGon.Notifications.HowToUse\FlyGon.Notifications.HowToUse.csproj", "{F4D7D528-2052-40FB-85B4-AAAB23E560E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyGon.Notifications.HowToUse", "samples\FlyGon.Notifications.HowToUse\FlyGon.Notifications.HowToUse.csproj", "{F4D7D528-2052-40FB-85B4-AAAB23E560E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyGon.Notifications", "src\FlyGon.Notifications\FlyGon.Notifications.csproj", "{339EEEBB-4189-48F5-AA43-051CAB82DF94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyGon.Notifications", "src\FlyGon.Notifications\FlyGon.Notifications.csproj", "{339EEEBB-4189-48F5-AA43-051CAB82DF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyGon.Notifications.Test", "tests\FlyGon.Notifications.Test\FlyGon.Notifications.Test.csproj", "{940E9300-0EFD-43F6-ABC7-D56566083F55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{339EEEBB-4189-48F5-AA43-051CAB82DF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{339EEEBB-4189-48F5-AA43-051CAB82DF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{339EEEBB-4189-48F5-AA43-051CAB82DF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940E9300-0EFD-43F6-ABC7-D56566083F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940E9300-0EFD-43F6-ABC7-D56566083F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940E9300-0EFD-43F6-ABC7-D56566083F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940E9300-0EFD-43F6-ABC7-D56566083F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
